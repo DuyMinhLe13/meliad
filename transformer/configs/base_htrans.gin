@@ -21,7 +21,7 @@ DROPOUT_RATE = 0.05
 ATTN_DROPOUT_RATE = 0.05
 
 # For training on TPU.
-DTYPE="bfloat16"
+DTYPE="float32"
 
 # Configure the input task.
 decoder_stack.TransformerTaskConfig:
